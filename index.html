@@ -9,6 +9,7 @@
 
 <style>
 * {margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;}
+
 body {background:#f5f7f6;color:#1f2937;}
 
 .hero {
@@ -32,8 +33,15 @@ body {background:#f5f7f6;color:#1f2937;}
   font-weight:600;
 }
 
-.section {padding:80px 20px;text-align:center;}
-.section h2 {font-size:32px;margin-bottom:40px;}
+.section {
+  padding:80px 20px;
+  text-align:center;
+}
+
+.section h2 {
+  font-size:32px;
+  margin-bottom:40px;
+}
 
 .grid {
   display:grid;
@@ -51,7 +59,17 @@ body {background:#f5f7f6;color:#1f2937;}
   text-align:left;
 }
 
-.solution {background:#ecfdf5;}
+.card a {
+  display:inline-block;
+  margin-top:10px;
+  color:#10b981;
+  font-weight:600;
+  text-decoration:none;
+}
+
+.solution {
+  background:#ecfdf5;
+}
 
 .cta {
   background:linear-gradient(135deg,#0f766e,#10b981);
@@ -90,7 +108,6 @@ body {background:#f5f7f6;color:#1f2937;}
     transparansi, dan dokumentasi.
   </p>
 
-  <!-- ✅ FIXED LINK -->
   <a href="https://www.appsheet.com/start/fb67839a-318a-4644-9576-30e12cf7e4f5"
      class="btn" target="_blank">
      Akses DigiPin Bidan
@@ -102,9 +119,20 @@ body {background:#f5f7f6;color:#1f2937;}
   <h2>Mengapa Perlu DigiPin Bidan?</h2>
 
   <div class="grid">
-    <div class="card">Pencatatan Manual</div>
-    <div class="card">Risiko Kehilangan</div>
-    <div class="card">Proses Lambat</div>
+    <div class="card">
+      <strong>Pencatatan Manual</strong>
+      <p>Data masih dicatat manual dan rawan hilang.</p>
+    </div>
+
+    <div class="card">
+      <strong>Risiko Kehilangan</strong>
+      <p>Alat sulit dipantau tanpa sistem monitoring.</p>
+    </div>
+
+    <div class="card">
+      <strong>Proses Lambat</strong>
+      <p>Proses peminjaman memakan waktu lama.</p>
+    </div>
   </div>
 </section>
 
@@ -132,11 +160,42 @@ body {background:#f5f7f6;color:#1f2937;}
   </div>
 </section>
 
+<!-- PANDUAN & BANTUAN -->
+<section class="section">
+  <h2>Panduan & Bantuan</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>📘 Manual Book</h3>
+      <p>Panduan lengkap penggunaan sistem.</p>
+      <a href="https://docs.google.com/document/d/1L5Ygz_OkHVD7w1aaT0G4lg32QYqoDxeM/edit?usp=drivesdk&ouid=113385148930533102054&rtpof=true&sd=true"
+         target="_blank">Buka Manual</a>
+    </div>
+
+    <div class="card">
+      <h3>🎥 Video Tutorial</h3>
+      <p>Pelajari penggunaan melalui video.</p>
+      <a href="https://youtu.be/ADweQrO3GKA?si=aJWvnzbD3PQaCcHA"
+         target="_blank">Tonton Video</a>
+    </div>
+
+    <div class="card">
+      <h3>🛠 Support</h3>
+      <p>Hubungi jika mengalami kendala:</p>
+      <p>
+        <a href="https://wa.me/6285643329227" target="_blank">WhatsApp</a><br>
+        <a href="mailto:Puteri.apriliani@poltekkesjogja.ac.id">Email</a>
+      </p>
+    </div>
+
+  </div>
+</section>
+
 <!-- CTA -->
 <section class="cta">
   <h2>Siap Beralih ke Digital?</h2>
 
-  <!-- ✅ FIXED LINK -->
   <a href="https://www.appsheet.com/start/fb67839a-318a-4644-9576-30e12cf7e4f5"
      target="_blank">
      Akses Sekarang
